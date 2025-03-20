@@ -22,7 +22,7 @@
 
 
     <application
-        android:label="med_remainder"
+        android:label="med_reminder"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:enableOnBackInvokedCallback="true"

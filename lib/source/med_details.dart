@@ -3,7 +3,7 @@
 // ignore_for_file: unused_import
 
 import 'package:flutter/material.dart';
-import 'package:med_remainder/functions.dart';
+import 'package:med_reminder/functions.dart';
 
 class Medicine {
   String? name;
@@ -26,7 +26,8 @@ class Medicine {
       dosage: json['dosage'],
       time: json['time'],
       duration: json['duration'],
-      startdate: json['startdate'] != null ? DateTime.parse(json['startdate']) : null,
+      startdate:
+          json['startdate'] != null ? DateTime.parse(json['startdate']) : null,
     );
   }
 
@@ -42,13 +43,3 @@ class Medicine {
 }
 
 int? no;
-
-
-
-
-
-
-
-
-
-
